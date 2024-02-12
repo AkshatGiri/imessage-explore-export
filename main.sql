@@ -33,3 +33,13 @@ WHERE cmj.chat_id = (
     LIMIT 1
 )
 ORDER BY m.date DESC;
+
+-- Get attachement_id associated for message id
+SELECT * 
+FROM message_attachment_join
+WHERE message_id = 2100;
+
+-- Get attachement from attachement_id
+SELECT * 
+FROM attachment
+WHERE ROWID = 93;
