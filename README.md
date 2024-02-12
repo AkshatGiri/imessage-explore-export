@@ -1,4 +1,4 @@
-# Imessages Explore and Export
+# iMessage Explore and Export
 
 iMessage on macos saves all the chats and message in a sqlite database. Located at `~/Library/Messages/chat.db`. This project is to explore the database and export the messages to a csv file.
 
